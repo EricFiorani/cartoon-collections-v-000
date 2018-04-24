@@ -6,6 +6,7 @@ def roll_call_dwarves(dwarves)
     i += 1
     names.each_with_index do |num, index|
       puts "#{num} #{index}"
+    end
   end
   roll_call_dwarves(dwarves)
 end
