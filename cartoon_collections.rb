@@ -4,7 +4,7 @@ def roll_call_dwarves(dwarves)
   while i < dwarves.length
     names << yield(dwarves[i])
     i += 1
-    dwarves.each_with_index {|num, names| puts "#{num} #{names}"}
+    names.each_with_index do |num, index|
   end
   roll_call_dwarves(dwarves)
 end
