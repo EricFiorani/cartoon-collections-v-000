@@ -5,6 +5,7 @@ def roll_call_dwarves(dwarves)
     names << yield(dwarves[i])
     i += 1
     names.each_with_index do |num, index|
+      puts "#{num} #{index}"
   end
   roll_call_dwarves(dwarves)
 end
