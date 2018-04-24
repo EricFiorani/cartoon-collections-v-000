@@ -9,11 +9,7 @@ def summon_captain_planet(veggies)# code an argument here
 end
 
 def long_planeteer_calls(calls_long)# code an argument here
-  if calls_long.bsearch {|x| x >= 4}
-    return true
-  else
-    false
-  end# Your code here
+  calls_long.map.any?{|x| x.length > 4}# Your code here
 end
 
 def find_the_cheese# code an argument here
