@@ -14,7 +14,7 @@ end
 
 def find_the_cheese(cheddar_cheese)
   if cheddar_cheese.map.include?("cheddar")
-    return cheddar_cheese
+    return cheddar_cheese.include?
   else
     return nil
   end
