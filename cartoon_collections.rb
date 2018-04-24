@@ -9,7 +9,7 @@ def summon_captain_planet(veggies)# code an argument here
 end
 
 def long_planeteer_calls(calls_long)# code an argument here
-  if calls_long.map.min(4)
+  if calls_long.each.min(4)
     return true
   else
     false# Your code here
