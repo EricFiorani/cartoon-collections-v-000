@@ -12,6 +12,7 @@ def long_planeteer_calls(calls_long)# code an argument here
   if calls_long.map.min(4)
     return true
   else
+    calls_long.map.max(3)
     return false# Your code here
   end
 end
