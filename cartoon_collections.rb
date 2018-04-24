@@ -5,7 +5,7 @@ def roll_call_dwarves(dwarves)
 end
 
 def summon_captain_plane(veggies)# code an argument here
-  veggies.map {|x| return x.capitalize + "!"}
+  veggies.map {|x| x.capitalize + "!"}
 end
 
 def long_planeteer_calls# code an argument here
