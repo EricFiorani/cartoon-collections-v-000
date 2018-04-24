@@ -4,7 +4,7 @@ def roll_call_dwarves(dwarves)
   end
 end
 
-def summon_captain_plane(array)# code an argument here
+def summon_captain_plane(veggies)# code an argument here
   array.map{|x| x.capitalize + "!"}
 end
 
