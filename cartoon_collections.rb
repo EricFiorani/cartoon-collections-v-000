@@ -9,12 +9,7 @@ def summon_captain_planet(veggies)# code an argument here
 end
 
 def long_planeteer_calls(calls_long)# code an argument here
-  if calls_long.map.min(4)
-    return true
-  else
-    calls_long.map.max(3)
-    return false# Your code here
-  end
+  calls_long.map.any?{|x| x.length > 4}# Your code here
 end
 
 def find_the_cheese# code an argument here
