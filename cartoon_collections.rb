@@ -6,7 +6,7 @@ end
 
 def summon_captain_plane(veggies)
   planeteer_calls = ["earth", "wind", "fire", "water", "heart"]
-  planeteer_calls.map! {|x| x.capitalize + "!"}
+  planeteer_calls.map {|x| x.capitalize + "!"}
 end
 
 def long_planeteer_calls# code an argument here
