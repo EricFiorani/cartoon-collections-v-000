@@ -2,6 +2,7 @@ def roll_call_dwarves(dwarves)
   i = 0
   names = []
   while i < dwarves.length
+    names << yield(dwarves[i])
     i += 1
     dwarves.each_with_index {|num, names| puts "#{num} #{names}"}
   end
